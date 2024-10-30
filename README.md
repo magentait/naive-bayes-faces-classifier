@@ -1,10 +1,10 @@
 # Age Classification with Naive Bayes Classifier
 
-This project uses a Naive Bayes Classifier to classify facial images into two age groups: "young adult" and "adult." The classifier is based on statistical features calculated from training images and operates in the LAB color space for more robust color representation.
+This project uses a Naive Bayes Classifier to classify facial images into two age groups: "young adult" and "old adult." The classifier is based on statistical features calculated from training images and operates in the LAB color space for more robust color representation.
 
 ## Project Structure
 
-- Training and Testing Data: Organized into directories for "young adult" and "adult" images.
+- Training and Testing Data: Organized into directories for "young adult" and "old adult" images.
 - Model Building: Image preprocessing, mean and variance calculations for each class, and implementation of the Naive Bayes algorithm.
 - Evaluation: Accuracy measurement and visualizations to assess model performance.
 - Presentation Enhancements: Visualization of the mean and variance in images, interactive graphs, and a potential Streamlit web application for interactive classification.
@@ -20,4 +20,3 @@ This project uses a Naive Bayes Classifier to classify facial images into two ag
     - **Naive Bayes Classification**: For each test image, the probability of it belonging to each class is calculated. The class with the highest probability is chosen as the predicted class.
 4. Visualization
     - The means and standard deviations of pixel values for each class are displayed to show the distinct characteristics of each class.
->>>>>>> b005112 (first commit)
