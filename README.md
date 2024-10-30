@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# naive-bayes-faces-classifier
-Age Classification with Naive Bayes Classifier.
-=======
 # Age Classification with Naive Bayes Classifier
 
 This project uses a Naive Bayes Classifier to classify facial images into two age groups: "young adult" and "adult." The classifier is based on statistical features calculated from training images and operates in the LAB color space for more robust color representation.
